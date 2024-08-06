@@ -11,6 +11,8 @@ body {
   line-height: 1.5;
   color: hsl(236, 13%, 42%);
   background-color: hsl(36, 100%, 99%);
+  margin: 20px;
+  padding: 20px;
 }
 
 img {
@@ -70,6 +72,7 @@ nav {
   grid-template-columns: 2fr 1fr;
   gap: 30px;
   margin-bottom: 60px;
+  margin-top: 20px;
 }
 
 /* Hero Section */
@@ -123,7 +126,7 @@ nav {
 .new-articles h2 {
   color: hsl(35, 77%, 62%);
   font-size: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 0;
 }
 
 .new-articles article {
@@ -165,14 +168,16 @@ nav {
 
 .article-number {
   font-size: 32px;
-  font-weight: 700;
-  color: hsl(233, 8%, 79%);
+  font-weight: bold;
+  color: hsl(5, 85%, 63%);
 }
 
 .top-articles h3 {
   font-size: 18px;
   color: hsl(240, 100%, 5%);
   margin: 10px 0;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 .top-articles h3:hover {
@@ -185,6 +190,23 @@ footer {
   margin-top: 60px;
   text-align: center;
   padding: 20px 0;
+}
+
+.attribution {
+  font-size: 15px;
+  font-weight: 500;
+  color: hsl(240, 100%, 5%);
+}
+
+.attribution a {
+  color: hsl(236, 13%, 42%);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-weight: bolder;
+}
+
+.attribution a:hover {
+  color: hsl(5, 85%, 63%);
 }
 
 /* Responsive Design */
