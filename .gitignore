@@ -17,3 +17,6 @@
 
 # Avoid pushing fonts folder
 assets/fonts
+
+# Avoid pushing design folder
+design/
